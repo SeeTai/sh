@@ -5,13 +5,10 @@ local AllIDs = {}
 local foundAnything = ""
 local actualHour = os.date("!*t").hour
 local DataKey = "NotSameServers.json"
-
--- Убираем зависимость от Synapse X
 pcall(function()
     TeleportService:SetTeleportSetting("ServerHopData", {LastHour = actualHour})
 end)
 
--- Загружаем историю серверов
 local function LoadServerData()
     local success, data = pcall(function()
         return HttpService:JSONDecode(readfile(DataKey))
