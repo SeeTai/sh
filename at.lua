@@ -76,7 +76,7 @@ task.spawn(function()
 end)
 
 task.delay(15, function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/theplayer8000/Client-X/main/serverHop.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SeeTai/sh/refs/heads/main/sh.lua"))()
     
     while task.wait() do
         if not (player.Character:FindFirstChild("ForceField") or player.Character:FindFirstChild("GodModeShield")) then
