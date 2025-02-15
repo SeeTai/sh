@@ -5,7 +5,7 @@ while not game:GetService("CoreGui") or not game:GetService("Players").LocalPlay
     task.wait()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/theplayer8000/Client-X/main/antilag.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SeeTai/sh/refs/heads/main/al.lua"))()
 
 local FsMain = {"Losersexa", ""}
 local PpMain = {""}
