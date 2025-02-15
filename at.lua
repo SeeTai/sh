@@ -7,8 +7,8 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theplayer8000/Client-X/main/antilag.lua"))()
 
-local FsMain = {"1xToxsins", "vSebyy", "hikiin", "HxQueennn", "0riginalHybridKlaus", "IV9M", "IV6M", "xqCorey", "varlxer", "xSirTim", "SporadicSlasher", "Sinfliction", "GeiNaGe"}
-local PpMain = {"XiiUnWorthy", "IV6M"}
+local FsMain = {"Losersexa", ""}
+local PpMain = {""}
 
 local player = game:GetService("Players").LocalPlayer
 
